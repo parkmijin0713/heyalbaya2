@@ -1,0 +1,347 @@
+
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.col-1{ width: 100px; height: 500px; margin: 0px 10px; background-color: aqua; margin-left: 305px;}
+.col-2{ width: 200px; margin: 0px 10px; background-color: aqua; margin-left: 300px;}
+.col-3{ width: 320px; margin: 0px 10px; background-color: aqua; margin-left: 0px}
+.col-4{ width: 440px; margin: 0px 10px; background-color: aqua; margin-left: -460px;}
+.col-5{ width: 560px; margin: 0px 10px;}
+.col-6{ width: 680px; margin: 0px 10px; background-color: aqua;}
+.col-7{ width: 800px; margin: 0px 10px;}
+.col-8{ width: 920px; margin: 0px 10px; background-color: aqua; margin-left: 0px;}
+.col-9{ width: 1040px; margin: 0px 10px; }
+.col-10{ width: 1160px; margin: 0px 10px; background-color: aqua;}
+.col-11{ width: 1280px; margin: 0px 10px; }
+.col-12{ width: 1400px; margin: 0px 10px; }
+
+
+
+.header{
+    display: flex;
+    width: auto;
+    margin: 0px;
+    background: #75c733;
+    height: 84px;
+}
+
+.footer{
+    display: flex;
+    width: auto;
+    background: #75c733;
+    height: 84px;
+    margin-bottom: 0px;
+}
+
+.footerText{
+    width: 70%;
+    line-height: 70px;
+    margin-left: 20%;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 0.8em;
+    float: left;
+}
+
+.topButton{
+    margin-left:-150%; margin-top: -30%; width: 200px;
+}
+
+.home{
+    margin-left: 20%;
+    display:flex;
+    background: #75c733;
+}
+
+.nav{
+    font-family: 'Jua', sans-serif;
+    display: flex;
+    line-height: 86px;
+    width:60%;
+    margin-left: 10%;
+    font-size: 1.2em;
+}
+
+.nav > li{
+    margin-right: 70px;
+}
+
+.nav > li > a{
+    color: black;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 400px;
+    background-color: #eff583;
+}
+
+.cycle{
+    margin-top: 20px;
+    text-align:right;
+    width:80%;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.blankOne{
+    width: auto;
+    height: 140px;
+}
+
+.blankTwo{
+    width: auto;
+    height: 60px;
+}
+
+.gridOne{
+    width: 20%;
+}
+
+.title{
+    font-family: 'Poor Story', cursive;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #f25430;
+}
+
+.smallTitle{
+    font-family: 'Poor Story', cursive;
+    color: #f2a341;
+    font-size: 1.2em;
+}
+
+.mainText{
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 26px;
+    width:60%;
+    height: auto;
+    text-align: left;
+    font-size: 13px;
+}
+
+.baby1{ float: left; margin-right: 20px; height: 230px;
+}
+
+.student{ float: right; margin-left: 20px; height: 230px;
+}
+
+.history{
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 28px;
+    width:20%;
+    height: auto;
+    text-align: left;
+    font-size: 13.5px;
+}
+
+.old{ float: left; margin-left: 25%; margin-top: 5%; height: 230px;
+}
+
+.kid{ float: right; margin-right: 23.5%; margin-top: 6%; height: 230px;}
+
+.year{
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: #f2a341;
+}
+
+.lb-wrap img {
+    width: 60%;
+}
+
+.introduce{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 1.1em;
+    color: #f2a341;
+    font-weight: bolder;
+    
+}
+
+.daawjjun{ float: left; margin-right: 20px; width: 440px;
+}
+
+.expression{
+    width: 33%;
+    margin-left: -220pt;
+    margin-top: 5pt;
+    margin-bottom: 30pt;
+
+}
+
+.bunhal{
+    width: 100%
+}
+
+.gangjo{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.longAgo {float: left; height: 200px; margin-right: 20px;}
+.malpungsun{float: left; height: 50px;}
+
+.banjjak {float: right; margin-left: 20px; width: 320px;}
+
+.mainTextTwo{
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 26px;
+    width:60%;
+    height: auto;
+    text-align: left;
+    font-size: 13px;
+}
+
+.jumjangnim {float: right; width: 440px; margin-left: 20px;}
+
+.blankThree{
+    width: auto;
+    height: 330px;
+}
+
+.samChon{float: left; margin-right: 20px; width: 440px;
+}
+
+.hachui1{float: left; margin-right: 20px; width: 200px;}
+.hachui2{float: right; margin-left: 20px; width: 200px;}
+
+.mojin1{float: left; margin-right: 20px; width: 200px;}
+.mojin2{float: right; margin-left: 20px; width: 200px;}
+
+.chamsha1{float: left; margin-right: 20px; width: 200px;}
+.chamsha2{float: right; margin-left: 20px; width: 200px;}
+
+.mainTextThree{
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 26px;
+    width:40%;
+    height: auto;
+    text-align: left;
+    margin-left: 20%;
+    font-size: 13px;
+    
+}
+
+.baerong{float: left; margin-right: 20px; width: 150px;}
+.unuh{float: left; margin-right: 20px; width: 150px;}
+.bapun{float: left; margin-right: 20px; width: 150px;}
+
+
+.mainTextFour{
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 26px;
+    width:40%;
+    height: auto;
+    text-align: left;
+    margin-left: 40%;
+    font-size: 13px;
+}
+.mindal{float: right; margin-left: 20px; width: 150px;}
+.ggamang{float: right; margin-left: 20px; width: 150px;}
+.mond{float: right; margin-left: 20px; width: 150px;}
+
+
+.sogae{
+    text-align: center;
+}
+
+img[src *= "episode"] {
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.episode{
+    width: 22.8%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.episodeLine{
+	border: rgb(41, 41, 41) 0.2px solid;
+	box-sizing: border-box;
+}
+
+.epiText{
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.epiTextColor{
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #f2a341;
+    font-weight: bold;
+
+}
+
+.blankFour{
+    width: auto;
+    height: 210px;
+}
+
+.question{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 1.1em;
+    color: #f2a341;
+    font-weight: bolder;
+}
+
+.blankFive{
+    width: auto;
+    height: 3050px;
+}
+
+.symbol{
+    width: 320px;
+
+}
+
+.signature{
+    width: 440px;
+    margin-left: 100px;
+}
+
+.daawjjun22{
+    width: 150px;
+    float: right;
+    transform: scaleX(-1);
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.daawjjun33{
+    float: right;
+    display: flex;
+    width: 180px;
+    margin-right: 280px;
+    margin-top: -50px;
+}
+
+.daawjjun44{
+    float: right;
+    display: flex;
+    width: 170px;
+    margin-right: 320px;
+    margin-top: -30px;
+    transform: scaleX(-1);
+}
+
+.lineU{
+    border: 1px solid #444444;
+    padding: -5px;
+    margin:-10px;
+}
